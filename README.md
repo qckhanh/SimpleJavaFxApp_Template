@@ -1,5 +1,7 @@
 # JavaFX Application Template
 
+### Author: Khong Quoc Khanh
+
 This README provides a comprehensive guide on how to use and extend the JavaFX application template.
 
 ---
