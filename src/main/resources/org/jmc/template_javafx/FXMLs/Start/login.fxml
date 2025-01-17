@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" stylesheets="@../../Style/Start/login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jmc.template_javafx.controller.Start.LoginController">
+   <children>
+      <VBox alignment="CENTER" layoutX="128.0" layoutY="32.0" prefHeight="107.0" prefWidth="768.0" spacing="10.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="58.0" prefWidth="719.0" text="Further Programming - COSC2440">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="318.0" text="Assessment 3: Lab Test - Individual">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="159.0" layoutY="702.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="707.0" text="This is the template for simple JavaFx CRUD application, please reference if you are using it." textFill="#099ed4">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="707.0" text="Author: Khong Quoc Khanh - Github link: " textFill="#c9c9c9">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button fx:id="signIn_btn" layoutX="296.0" layoutY="612.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="433.0" text="Open application">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+      <GridPane layoutX="102.0" layoutY="288.0" prefHeight="120.0" prefWidth="685.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="396.6666666666667" minWidth="10.0" prefWidth="90.66665140787762" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="533.3333485921223" minWidth="0.0" prefWidth="515.3333485921223" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="204.66666666666663" minHeight="10.0" prefHeight="46.33330790201822" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="92.33334350585938" minHeight="10.0" prefHeight="49.33335876464844" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="92.33334350585938" minHeight="10.0" prefHeight="49.33335876464844" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="49.0" prefWidth="150.0" text="Student name:">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="49.0" prefWidth="150.0" text="Student ID:" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="49.0" prefWidth="533.0" text="Khong Quoc Khanh" GridPane.columnIndex="1">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="49.0" prefWidth="533.0" text="s4021494" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="49.0" prefWidth="150.0" text="Due Date:" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="49.0" prefWidth="533.0" text="18/01/2025" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
